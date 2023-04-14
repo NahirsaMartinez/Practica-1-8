@@ -7,9 +7,11 @@ console.log("s7829s;SA" != "123querty");
 console.log( ("joel" == "Joel") && ("s7829s;SA" == "s7829s;SA") );
 console.log( ("joel" == "Joel") || ("s7829s;SA" == "s7829s;SA") );
 console.log( ( "joel" == "Joel" ) && ("s7829s;SA" != "123querty"));
-console.log(18>=100 && 18<100);
-console.log( 18>=100 || 18<100);
-console.log( 18 <= 100 || 18>100);
-console.log( 18 > 100 && 18 <100);
-console.log( 18 > 100 || 18<100);
+
+let edad= 35;
+console.log( edad >=18 && edad <100);
+console.log( edad >=18 || edad <100);
+console.log( edad <= 18 || edad <100);
+console.log( edad < 18 && edad > 100);
+console.log( edad < 18 || edad <100);
 
